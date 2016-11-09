@@ -157,9 +157,46 @@ body {
     float: left;
     color: #FFF;
     padding: 0 10px 60px 10px;
-    background-color: darkcyan;
-}
+    background-image:url(images/content_bg.jpg);
+    background-repeat:no-repeat;
+    background-position:center bottom;
 
+}
+#content h2{
+    background-image:url(images/content_title.gif);
+    width:200px;
+    height:30px;
+    text-indent:-9999px;
+    margin-bottom:10px;
+}
+#content p{
+    margin-bottom:10px;
+}
+#content h3{
+    background-image:url(images/content_welcome.gif);
+    width:400px;
+    height:35px;
+    text-indent:-9999px;
+    margin-bottom:10px;
+}
+#content hr{
+    margin-bottom:10px;
+}
+#content h4{
+    background-image:url(images/content_notice.gif);
+    width:100px;
+    height:30px;
+    text-indent:-9999px;
+    margin-bottom:10px;
+}
+#content ul{
+    list-style-image:url(images/content_list_img.gif);
+    padding-left:20px;
+}
+#content li{
+    font-size:12px;
+    line-height:16px;
+}
 /* =======¥k°¼¿ï³æ°Ï======== */
 #sidebar2 {
     width: 180px;
