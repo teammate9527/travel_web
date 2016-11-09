@@ -203,7 +203,44 @@ body {
     float: right;
     background-color: darkolivegreen;
 }
+#sidebar2 h2{
+    background-image:url(images/sidebar1_viewmore.gif);
+    width:150px;
+    height:120px;
+    text-indent:-9999px;
+}
+#sidebar2 p{
+    background-image:url(images/list_top.gif);
+    width:150px;
+    height:29px;
+    line-height:29px;
+    color:#FFF;
+    font-weight:bold;
+    text-align:center;
+}
+#sidebar2 ul{
+    width:95px;
+    list-style-image:url(images/list_arrow.gif);
+    background-color:#486108;
+    background-image:url(images/list_bottom.gif);
+    background-repeat:no-repeat;
+    background-position:left bottom;
+    margin-bottom:10px;
+    padding:10px 20px 15px 35px;
+}
+#sidebar2 li{}
+#sidebar2 li a{
+    display:block;
+    color:#FFF;
+    padding:10px 0 5px 0;
+    font-size:12px;
+    text-decoration:none;
+    border-bottom:#91a06b 1px dashed;
 
+}
+#sidebar2 li a:hover{
+    color:#F90;
+}
 /* =======ª©Åv«Å§i°Ï======== */
 #footer {
     clear: both;

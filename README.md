@@ -8,4 +8,6 @@
 
 ## Step 4: content的部份
 
+## Step 5: 處理sidebar2的部份
+
 
