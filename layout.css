@@ -12,7 +12,9 @@ body {
 
 /* 網頁內容最外層包裝, 主要是用margin來做左右置中 */
 #wrapper {
-
+    background-image:url(images/wrapper_bg.jpg);
+    background-repeat:repeat-x;
+    background-color:#587907;
     width: 980px;
     margin: 0 auto;
 }
@@ -56,6 +58,9 @@ body {
     border-top:1px #663 solid;
     border-right:1px #663 solid;
 }
+#header li a:hover{
+    background-color:#eeeeaa;
+}
 #header h3{
     position:absolute;
     background-image:url(images/header_bar.gif);
@@ -86,9 +91,66 @@ body {
     width: 165px;
     float: left;
     padding-left: 15px;
-    background-color: darkgreen;
+}
+#sidebar1 h2{}
+#sidebar1 h2 a img{
+    display:block;
+    width:150px;
+    height:115px;
+    text-indent:-9999px;
+    margin-bottom:10px;
 }
 
+#sidebar1 p{
+    background-image:url(images/list_top.gif);
+    width:150px;
+    height:29px;
+    line-height:29px;
+    color:#FFF;
+    font-weight:bold;
+    text-align:center;
+}
+#sidebar1 ul{
+    width:95px;
+    list-style-image:url(images/list_arrow.gif);
+    background-color:#486108;
+    background-image:url(images/list_bottom.gif);
+    background-repeat:no-repeat;
+    background-position:left bottom;
+    margin-bottom:10px;
+    padding:10px 20px 15px 35px;
+}
+#sidebar1 li{}
+#sidebar1 li a{
+    display:block;
+    color:#FFF;
+    padding:10px 0 5px 0;
+    font-size:12px;
+    text-decoration:none;
+    border-bottom:#91a06b 1px dashed;
+
+}
+#sidebar1 li a:hover{
+    color:#F90;
+    transition-duration: 600ms;
+}
+
+#sidebar1 h3 {
+    background-image:url(images/sidebar1_sale.gif);
+    width:150px;
+    height:140px;
+    text-indent:-9999px;
+    margin-bottom:10px;
+}
+#sidebar1 h4{}
+#sidebar1 h4 a{
+    display:block;
+    background-image:url(images/sidebar1_registration.gif);
+    width:150px;
+    height:80px;
+    text-indent:-9999px;
+    margin-bottom:10px;
+}
 /* =======內容區======== */
 #content {
     width: 600px;

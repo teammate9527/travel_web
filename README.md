@@ -4,4 +4,6 @@
 
 ## Step 2: 處理header的部份
 
-1. 
+## Step 3: 處理sidebar1的部份
+
+
