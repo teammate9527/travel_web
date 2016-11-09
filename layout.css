@@ -244,5 +244,13 @@ body {
 /* =======ª©Åv«Å§i°Ï======== */
 #footer {
     clear: both;
-    background-color: greenyellow;
+    background-color:#314403;
+}
+#footer h4{
+    height:50px;
+    font-weight:normal;
+    font-size:12px;
+    text-align:center;
+    color:#FFF;
+    line-height:50px;
 }

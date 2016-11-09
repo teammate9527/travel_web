@@ -10,4 +10,6 @@
 
 ## Step 5: 處理sidebar2的部份
 
+## Step 6: 處理footer的部份
+
 
